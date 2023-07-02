@@ -49,7 +49,7 @@ namespace MordhauDess
 
         private void MeleeTimer_Tick(object sender, EventArgs e)
         {
-            if (mem.ReadUInt(Offsets.Pawn) != 0)
+            if (mem.ReadByte(Offsets.IsAlive) != 0)
             {
 
                 if (FOVcheck.Checked)
