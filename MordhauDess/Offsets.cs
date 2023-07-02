@@ -63,6 +63,9 @@ namespace MordhauDess
         public static string VisualMMR = "Mordhau-Win64-Shipping.exe+580D8F8,A70,0,170,B50,58,10,138";
         public static string XP = "Mordhau-Win64-Shipping.exe+59437A0,510,28,8,150,230,D0,10";
 
+        //playerstate
+        public static string IsAlive = PlayerState + ",368";
+
 
     }
 }
