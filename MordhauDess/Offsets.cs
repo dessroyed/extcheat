@@ -19,6 +19,7 @@ namespace MordhauDess
         public static string PlayerController = GEngine + ",DF8,38,0,30";
         public static string PlayerCameraManager = PlayerController + ",2B8";
         public static string Pawn = PlayerController + ",2A0";
+        public static string PlayerState = PlayerController + ",228";
         public static string CharacterMovement = Pawn + ",288";
 
         // visual
